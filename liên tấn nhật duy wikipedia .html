@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Website giới thiệu nghệ sĩ Liên Tấn Nhật Duy, nghệ danh DJ D.R TheBattery, hoạt động trong lĩnh vực DJ và sản xuất âm nhạc.">
+  <meta name="theme-color" content="#111827">
+  <title>Liên Tấn Nhật Duy | DJ D.R TheBattery</title>
+  <meta property="og:title" content="Liên Tấn Nhật Duy | DJ D.R TheBattery">
+  <meta property="og:description" content="Trang nghệ sĩ chính thức — tiểu sử, dự án âm nhạc và video.">
+  <meta property="og:type" content="website">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Liên Tấn Nhật Duy",
+    "alternateName": "DJ D.R TheBattery",
+    "description": "Nghệ sĩ Việt Nam hoạt động trong lĩnh vực DJ và sản xuất âm nhạc.",
+    "nationality": {
+      "@type": "Country",
+      "name": "Vietnam"
+    },
+    "sameAs": [
+      "https://youtube.com/@lientannhatduy",
+      "https://www.facebook.com/share/18axhnhFtg/",
+      "https://x.com/lientannhatduy",
+      "https://www.instagram.com/lientannhatduysinger/",
+      "https://www.tiktok.com/@lientannhatduy",
+      "https://github.com/lientannhatduy"
+    ]
+  }
+  </script>
+  <style>
+    :root { --ink:#171923; --muted:#626879; --paper:#f7f7f5; --line:#e4e5e9; --accent:#315a78; --accent2:#d9e5ec; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); line-height:1.65; }
+    a { color:inherit; }
+    .wrap { width:min(1080px, calc(100% - 40px)); margin:auto; }
+    header { padding:22px 0; border-bottom:1px solid var(--line); background:rgba(247,247,245,.94); }
+    .nav { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    .brand { font-weight:800; letter-spacing:.04em; font-size:.9rem; }
+    nav { display:flex; flex-wrap:wrap; gap:18px; font-size:.92rem; }
+    nav a { text-decoration:none; color:var(--muted); }
+    nav a:hover { color:var(--ink); }
+    .hero { padding:88px 0 76px; display:grid; grid-template-columns:1.25fr .75fr; align-items:center; gap:50px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.18em; font-size:.76rem; font-weight:750; color:var(--accent); }
+    h1 { font-size:clamp(2.7rem,6vw,5.4rem); line-height:1.02; letter-spacing:-.055em; margin:18px 0; }
+    .stage { font-size:1.2rem; color:var(--muted); margin-bottom:24px; }
+    .intro { max-width:620px; color:#454b59; font-size:1.08rem; }
+    .buttons { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:8px; border:1px solid var(--ink); text-decoration:none; font-weight:700; font-size:.94rem; }
+    .btn.primary { color:white; background:var(--ink); }
+    .portrait { min-height:370px; border-radius:16px; background:linear-gradient(145deg,#e5e9eb,#d4dde2 55%,#f1f0ed); display:flex; align-items:center; justify-content:center; padding:24px; text-align:center; border:1px solid #d8dfe3; }
+    .portrait .monogram { font-size:clamp(3rem,7vw,5.8rem); line-height:1; font-weight:850; letter-spacing:-.08em; color:#405b6b; }
+    .portrait small { display:block; margin-top:16px; color:#53616a; }
+    section { padding:62px 0; border-top:1px solid var(--line); }
+    .section-head { display:grid; grid-template-columns:.55fr 1.45fr; gap:32px; margin-bottom:28px; }
+    h2 { font-size:clamp(1.8rem,3vw,2.6rem); line-height:1.15; letter-spacing:-.04em; margin:0; }
+    .section-head p { margin:0; color:var(--muted); max-width:660px; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card { border:1px solid var(--line); background:#fff; padding:22px; border-radius:12px; }
+    .card h3 { margin:0 0 8px; font-size:1.08rem; }
+    .card p { margin:0; color:var(--muted); font-size:.95rem; }
+    .music { display:flex; justify-content:space-between; align-items:center; gap:24px; background:var(--accent2); padding:28px; border-radius:14px; }
+    .music h3 { font-size:1.7rem; margin:0 0 4px; }
+    .music p { margin:0; color:#445462; }
+    .socials { display:flex; flex-wrap:wrap; gap:10px; }
+    .socials a { border:1px solid var(--line); background:white; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:650; font-size:.92rem; }
+    .notice { font-size:.86rem; color:var(--muted); background:#fff; border-left:3px solid #9aa8b0; padding:12px 16px; margin-top:22px; }
+    footer { padding:28px 0 42px; color:var(--muted); font-size:.88rem; }
+    @media (max-width:760px) {
+      .nav { align-items:flex-start; flex-direction:column; }
+      .hero { grid-template-columns:1fr; padding:56px 0; gap:28px; }
+      .portrait { min-height:230px; }
+      .section-head { grid-template-columns:1fr; gap:12px; }
+      .cards { grid-template-columns:1fr; }
+      .music { align-items:flex-start; flex-direction:column; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">LIÊN TẤN NHẬT DUY</div>
+    <nav aria-label="Điều hướng chính">
+      <a href="#about">Giới thiệu</a><a href="#career">Sự nghiệp</a><a href="#music">Âm nhạc</a><a href="#videos">Video</a><a href="#contact">Liên hệ</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Artist • DJ • Music Producer</div>
+      <h1>Liên Tấn<br>Nhật Duy</h1>
+      <div class="stage">DJ D.R TheBattery</div>
+      <p class="intro">Trang giới thiệu nghệ sĩ Liên Tấn Nhật Duy, nơi tổng hợp thông tin về hành trình âm nhạc, các dự án và những kênh chính thức.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://youtube.com/@lientannhatduy" target="_blank" rel="noopener noreferrer">Xem YouTube</a>
+        <a class="btn" href="#about">Tìm hiểu thêm</a>
+      </div>
+    </div>
+    <div class="portrait" role="img" aria-label="Khu vực thay bằng ảnh chân dung nghệ sĩ">
+      <div><div class="monogram">LND</div><small>Thay khu vực này bằng ảnh chân dung nghệ sĩ</small></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">01 / Giới thiệu</div>
+        <div><h2>Về nghệ sĩ</h2><p>Liên Tấn Nhật Duy, được biết đến với nghệ danh DJ D.R TheBattery, giới thiệu hoạt động của mình trong lĩnh vực DJ và sản xuất âm nhạc. Nội dung tiểu sử chi tiết sẽ được cập nhật khi có thông tin đã xác minh.</p></div>
+      </div>
+      <div class="notice">Để hồ sơ đáng tin cậy, hãy chỉ thêm ngày sinh, quê quán, giải thưởng, lịch diễn hoặc thành tích khi có thể xác minh. Website cá nhân không thay thế nguồn báo chí độc lập.</div>
+    </div>
+  </section>
+
+  <section id="career">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">02 / Sự nghiệp</div>
+        <div><h2>Hành trình âm nhạc</h2><p>Không gian giới thiệu quá trình hoạt động DJ, sản xuất, phối khí, biểu diễn và các cột mốc nghề nghiệp. Bạn có thể bổ sung thời gian, sự kiện và liên kết xác thực cho từng cột mốc.</p></div>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>DJ</h3><p>Thông tin về phong cách biểu diễn, sự kiện và hoạt động DJ.</p></article>
+        <article class="card"><h3>Sản xuất âm nhạc</h3><p>Giới thiệu các bản phối, sản phẩm và dự án âm nhạc đã phát hành.</p></article>
+        <article class="card"><h3>Dự án mới</h3><p>Cập nhật các sản phẩm đang phát triển và thông báo chính thức.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="music">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">03 / Âm nhạc</div>
+        <div><h2>Tác phẩm & dự án</h2><p>Danh sách tác phẩm sẽ được cập nhật cùng liên kết nghe nhạc, ngày phát hành và thông tin ghi công chính xác.</p></div>
+      </div>
+      <div class="music">
+        <div><div class="eyebrow">Dự án đang giới thiệu</div><h3>Hàng Lệ Tuôn</h3><p>Liên Tấn Nhật Duy · DJ D.R TheBattery</p></div>
+        <a class="btn primary" href="https://youtube.com/@lientannhatduy" target="_blank" rel="noopener noreferrer">Mở kênh YouTube</a>
+      </div>
+      <p class="notice">Nếu bài hát đã có đường dẫn phát hành chính thức riêng, hãy thay liên kết kênh YouTube bằng đường dẫn chính xác của bài hát.</p>
+    </div>
+  </section>
+
+  <section id="videos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">04 / Video</div>
+        <div><h2>Video chính thức</h2><p>Xem các video, bản trình diễn và nội dung âm nhạc trên kênh YouTube của nghệ sĩ.</p></div>
+      </div>
+      <a class="btn primary" href="https://youtube.com/@lientannhatduy" target="_blank" rel="noopener noreferrer">Xem tất cả video trên YouTube</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">05 / Kết nối</div>
+        <div><h2>Theo dõi nghệ sĩ</h2><p>Các kênh bên dưới được cung cấp để khán giả tìm thấy trang nghệ sĩ và cập nhật hoạt động mới.</p></div>
+      </div>
+      <div class="socials">
+        <a href="https://youtube.com/@lientannhatduy" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://www.facebook.com/share/18axhnhFtg/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/lientannhatduysinger/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.tiktok.com/@lientannhatduy" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://x.com/lientannhatduy" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://github.com/lientannhatduy" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Liên Tấn Nhật Duy. Website giới thiệu nghệ sĩ. <span id="edit-note">Cập nhật nội dung và liên kết trước khi xuất bản.</span></div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
